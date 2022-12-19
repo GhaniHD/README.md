@@ -34,11 +34,11 @@ int main()
     {
         for (j = 0; j < kolom; j++)
         {
-            cout << " Elemen matrik A baris ke-" << i <<" kolom ke-" << j << ": "
-			;
+            cout << " Baris " <<i<<", Kolom "<<j<< " = ";
             cin >> a[i][j];
              
         }
+        cout<<"\n";
     }
 
     cout << endl;
@@ -67,4 +67,4 @@ int main()
     return 0;
 }
 ## Output
-![2022-12-19 (2)](https://user-images.githubusercontent.com/120998349/208372870-c6e64f79-ee1a-4524-afbf-4d313c1de44b.png)
+![2022-12-19 (3)](https://user-images.githubusercontent.com/120998349/208375251-dddb318b-63c8-4c3a-abd4-d995c064f158.png)
